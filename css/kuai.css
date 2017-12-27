@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body{max-width:1920px;}
+	#tab{width:1200px;margin:0 auto;
+	display:block;position:relative;z-index:2;}
+	#tab .dw{position:absolute;left:0px;top:114px;}
+	#tab .dw .kb{position:relative;
+				float:left;
+				width:208px;
+				height:150px;
+				cursor:pointer;
+				text-align:center;}
+	#tab .dw .kb .sp1{width:36px;
+					height:36px;
+					margin-left:-18px;
+					top:32px;
+					left:50%;
+					position:absolute;
+					display:block;
+					background:url(../img/img-1/update-icon.png) -279px -927px no-repeat;
+					cursor:pointer;
+					text-align:center;
+					transition: top 0.4s ease-out;}
+	#tab .dw .kb h3{position:absolute;
+					display:block;
+					left:0px;
+					bottom:40px;
+					width:100%;
+					color: #2e2e2e;
+					font-size:24px;
+					transition: all 0.4s ease-out;}
+	#tab .dw dd.ys i{position:absolute;
+					width:242px;
+					height:146px;
+					left:50%;
+					margin-left:-121px;
+					bottom:-4px;
+					background:url(../img/img-1/update-icon.png) -358px -408px no-repeat;}
+	#tab .dw dd.ys h3{color: #c1b984;font-size:30px;}
+	#tab ul.zhy li{float:left;
+				width:208px;
+				height:150px;
+				position:relative;
+				text-align:center;
+				cursor:pointer;}
+	#tab ul li .sp2{width:26px;
+					height:36px;
+					margin-left:-13px;
+					background:url(../img/img-1/update-icon.png) -350px -927px no-repeat;
+					position:absolute;
+					display:block;
+					left:50%;
+					top:32px;
+					transition: top 0.4s ease-out;}	
+	#tab ul li .sp3{width:34px;
+					height:34px;
+					margin-left:-17px;
+					background:url(../img/img-1/update-icon.png) -413px -928px no-repeat;
+					position:absolute;
+					display:block;
+					left:50%;
+					top:32px;
+					transition: top 0.4s ease-out;}	
+	#tab ul li .sp4{width:38px;
+					height:36px;
+					margin-left:-19px;
+					background:url(../img/img-1/update-icon.png) -476px -927px no-repeat;
+					position:absolute;
+					display:block;
+					left:50%;
+					top:32px;
+					transition: top 0.4s ease-out;}	
+	#tab ul li h3{position:absolute;
+				display:block;
+				width:100%;
+				left:0px;
+				bottom:40px;
+				font-size:24px;
+				color:#2e2e2e;
+				transition: all 0.4s ease-out;}
+				
+	#tab ul li.on i{position:absolute;
+					width:242px;
+					height:146px;
+					left:50%;
+					margin-left:-121px;
+					bottom:-4px;
+					background:url(../img/img-1/update-icon.png) -358px -408px no-repeat;}			
+	#tab ul li.on h3{color: #c1b984;font-size:30px;}
+	#tab ul li.on span{width:43px;
+						height:43px;
+						margin-left:-21px;
+						top:16px;
+						position:absolute;
+						display:block;
+						left:50%;
+						transition: top 0.4s ease-out;}
+	#tab .rc{position:absolute;
+			top:50px;
+			right:0px;
+			background:url(../img/img-1/update-icon.png) -5px -676px;
+			width:364px;
+			height:222px;}
+	#tab .rc a.a1{position:absolute;
+					top:10px;
+					left:10px;
+					width:225px;
+					height:56px;
+					opacity:0.85;
+					background:url(../img/img-1/update-icon.png) 0 0 no-repeat;}	
+	#tab .rc a.a2{position:absolute;
+					top:72px;
+					left:10px;
+					width:225px;
+					height:56px;
+					opacity:0.85;
+					background:url(../img/img-1/update-icon.png) 0 -66px no-repeat;}
+	#tab .rc a.a3{position:absolute;
+					top:135px;
+					left:10px;
+					width:225px;
+					height:56px;
+					opacity:0.85;
+					background:url(../img/img-1/update-icon.png) 0 -133px no-repeat;}					
+	#tab .rc a i{position:absolute;
+				display:block;
+				width:202px;
+				height:42px;
+				left:-42px;
+				bottom:20px;
+				opacity:0;
+				transition: all 0.6s ease-out;
+				background:url(../img/img-1/update-icon.png) -398px -1659px;}
+	#tab .rc a i:hover{bottom:36px;opacity:1;}					
+	#tab .rc div.ewm{position:absolute;
+					display:block;
+					right:13px;
+					top:10px;
+					width:105px;
+					height:105px;
+					background:url(../img/img-1/update-icon.png) -432px -676px no-repeat;}
+	#tab .rc div.mnq{position:absolute;
+					display:block;
+					width:105px;
+					height:67px;
+					right:13px;
+					bottom:32px;
+					cursor:pointer;
+					opacity:0.85;
+					background:url(../img/img-1/update-icon.png) -432px -805px no-repeat;}
+	#tab .pic{width:4200px;transition: all 0.6s ease-out;}
+	#tab .dtp{width:1400px;
+			height:440px;
+			left:-100px;
+			position:relative;
+			margin:0 auto;
+			top:280px;
+			overflow:hidden;
+			transition: all 0.4s ease-out;}
+	#tab .dtp .dt{width:1400px;
+				float:left;
+				height:310px;
+				padding:60px 0px;
+				background:url(../img/img-1/update-game-times.png) 50% 20% no-repeat;}
+	#tab .dtp .dt1{height:440px;}
+	#tab .dtp .dt2{height:440px;}
+	#tab .dtp div{width:1400px;
+				float:left;}
+	
+	#tab .dtp .dt1 .nitu{position:relative;
+						display:block;
+						width:1200px;
+						margin:0px auto;
+						z-index:2;
+						}
+	#tab .dtp .dt1 .nitu .nishang{padding:20px 0px 40px 0px;}
+	
+	#tab .dtp .dt1 .nitu .nishang .active{font-weight:bold;
+						float:left;
+						font-size:16px;
+						cursor:pointer;}
+	#tab .dtp .dt1 .nitu .nishang .trh{padding:0px 30px;
+						cursor:pointer;
+						color:#c1b984;
+						float:left;
+						font-size:16px;
+						}
+	#tab .dtp .dt1 .nitu .nixia li:hover{transform:scale(1.1,1.1);}
+	#tab .dtp .dt1 .nitu .nixia li.fq1{float:left;
+								margin-right:42px;
+								position:relative;
+								width:268px;
+								height:179px;
+								background:url(../img/img-1/tongren1.jpg) no-repeat;}					
+	#tab .dtp .dt1 .nitu .nixia li.fq2{float:left;
+								margin-right:42px;
+								position:relative;
+								width:268px;
+								height:179px;
+								background:url(../img/img-1/tongren2.jpg) no-repeat;}					
+	#tab .dtp .dt1 .nitu .nixia li.fq3{float:left;
+								margin-right:42px;
+								position:relative;
+								width:268px;
+								height:179px;
+								background:url(../img/img-1/tongren3.jpg) no-repeat;}					
+	#tab .dtp .dt1 .nitu .nixia li.fq4{float:left;
+								
+								position:relative;
+								width:268px;
+								height:179px;
+								background:url(../img/img-1/tongren4.jpg) no-repeat;}					
+	#tab .pic div{width:100%;height:100%;}/* 去除图片展示的bug */
+	img{width:100%;height:100%;}
+	
+	
+	#tab .ko{height:0px;}
+	
+
